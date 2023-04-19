@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Contacts.css"
 
 const Contacts = (props) => {
-    // const [contacts, setContacts] = useState([])
     const [isToggled, setIsToggled] = useState(false);
 
     return (
